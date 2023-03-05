@@ -1,9 +1,9 @@
 <?php
 
-session_start();
-if (!$_SESSION['usuario']) {
-    header('Location: login.php');
-}
+// session_start();
+// if (!$_SESSION['usuario']) {
+//     header('Location: login.php');
+// }
 
 ?>
 
@@ -32,17 +32,17 @@ if (!$_SESSION['usuario']) {
                     <h3>API</h3>
                     <ul>
                         <li>
-                            <a href="exercicio.php?dir=namespace&file=basicoNamespace">
-                                Básico Namespace
+                            <a href="exercicio.php?dir=api&file=datas01">
+                                Datas #01
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=namespace&file=subNamespace">
-                                Sub-Namespace
+                            <a href="exercicio.php?dir=api&file=datas02">
+                                Datas #02
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=namespace&file=useAs">
+                            <a href="exercicio.php?dir=api&file=datas03">
                                 Use/As
                             </a>
                         </li>
