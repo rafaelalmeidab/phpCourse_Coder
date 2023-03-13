@@ -42,8 +42,13 @@
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=api&file=datas03">
-                                Use/As
+                            <a href="exercicio.php?dir=api&file=escreverArquivo">
+                                Escrever Arquivo
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=api&file=lerArquivo">
+                                Ler Arquivo
                             </a>
                         </li>
                     </ul>
