@@ -51,6 +51,16 @@
                                 Ler Arquivo
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=api&file=uploadArquivo">
+                                Upload Arquivo
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=api&file=downloadArquivo">
+                                Download Arquivo
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo vermelho">
