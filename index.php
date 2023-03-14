@@ -61,6 +61,11 @@
                                 Download Arquivo
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=api&file=listarImagens">
+                                Listar Imagens
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo vermelho">
