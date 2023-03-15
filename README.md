@@ -20,13 +20,15 @@ Before taking this course, students should have a basic understanding of program
 <h3><b>Namespaces</b></h3><br>
 -Defining and using namespaces<br>
 
+<!--
 <h3><b>APIs</b></h3><br>
 -RESTful APIs<br>
 -HTTP methods (GET, POST, PUT, DELETE)<br>
 -JSON and XML data formats<br>
 -API authentication<br>
+-->
 
-<h3><b>Sessions and Cookies</b></h3><br>
+<h3><b>Sessions and Cookies</b></h3>
 -Using sessions to store user data<br>
 -Using cookies to remember user preferences<br>
 
