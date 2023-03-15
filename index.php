@@ -183,6 +183,11 @@
                                 Construtor/Destrutor
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=classesObjetos&file=heranca">
+                                Herança
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo vermelho-escuro">
