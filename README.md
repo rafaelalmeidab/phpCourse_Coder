@@ -1,4 +1,5 @@
-###PHP Course
+<b>PHP Course</b>
+<br>
 
 This course covers the fundamentals of PHP programming, including arrays, conditional and repetitive structures, namespaces, APIs, sessions and cookies, forms, databases, and error handling. The goal of this course is to provide a comprehensive understanding of PHP programming, and to equip students with the skills necessary to build dynamic, interactive web applications.
 
