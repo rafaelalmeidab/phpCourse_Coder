@@ -5,8 +5,8 @@ This course covers the fundamentals of PHP programming, including arrays, condit
 <h3><b>Prerequisites</b></h3>
 Before taking this course, students should have a basic understanding of programming concepts, such as variables, functions, and control structures. Knowledge of HTML and CSS is also recommended.<br>
 
-<h3><b>Topics Covered</b><br>
-<b>Arrays</b></h3><br>
+<h3><b>Topics Covered</b></h3><br>
+<h3><b>Arrays</b></h3><br>
 -Creating and accessing arrays<br>
 -Array functions<br>
 -Multidimensional arrays<br>
