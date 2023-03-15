@@ -36,9 +36,13 @@
             if(in_array(pathinfo('api/dadosUpload/' . $arquivo , PATHINFO_EXTENSION), $extensions)){
             ?>
             <li>
-                <a href="api/dadosUpload/"<?= $arquivo ?>">
-                    <?= $arquivo ?>
-                </a>
+                <!--
+                <a href="api/dadosUpload/">
+                </a>-->
+                <figure>
+                    <img src="api/dadosUpload/<?= $arquivo ?>" alt="<?= $arquivo ?>">
+                    <figcaption><?= $arquivo ?></figcaption>
+                </figure>
             </li>
             <?php
             }
