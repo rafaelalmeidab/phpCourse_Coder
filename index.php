@@ -169,63 +169,18 @@
                     <h3>Orientação a Objetos</h3>
                     <ul>
                         <li>
-                            <a href="exercicio.php?dir=funcoes&file=escopo">
-                                Funções & Escopo
+                            <a href="exercicio.php?dir=classesObjetos&file=primeiraClasse">
+                                Primeira Classe
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=funcoes&file=argumentoRetorno">
-                                Argumentos & Retornos
+                            <a href="exercicio.php?dir=classesObjetos&file=desafioClasseData">
+                                Desafio Classe Data
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=funcoes&file=desafioPalindromo">
-                                Desafio Palíndromo
-                            </a>
-                        </li>
-                        <li>
-                            <a href="exercicio.php?dir=funcoes&file=argumentoVariavel">
-                                Argumentos & Variáveis
-                            </a>
-                        </li>
-                        <li>
-                            <a href="exercicio.php?dir=funcoes&file=argumentoPadrao">
-                                Argumento Padrão
-                            </a>
-                        </li>
-                        <li>
-                            <a href="exercicio.php?dir=funcoes&file=declaraTipos">
-                                Declarando Tipos
-                            </a>
-                        </li>
-                        <li>
-                            <a href="exercicio.php?dir=funcoes&file=funcaoAnonima">
-                                Funções Anônimas
-                            </a>
-                        </li>
-                        <li>
-                            <a href="exercicio.php?dir=funcoes&file=closureCallable">
-                                Closure & Callable
-                            </a>
-                        </li>
-                        <li>
-                            <a href="exercicio.php?dir=funcoes&file=recursividade">
-                                Recursividade
-                            </a>
-                        </li>
-                        <li>
-                            <a href="exercicio.php?dir=funcoes&file=desafioBuscaRecursiva">
-                                Desafio Busca Recursiva
-                            </a>
-                        </li>
-                        <li>
-                            <a href="exercicio.php?dir=funcoes&file=retornandoFuncao">
-                                Retornando Uma Função
-                            </a>
-                        </li>
-                        <li>
-                            <a href="exercicio.php?dir=funcoes&file=mapFilter">
-                                Map & Filter
+                            <a href="exercicio.php?dir=classesObjetos&file=construtorDestrutor">
+                                Construtor/Destrutor
                             </a>
                         </li>
                     </ul>

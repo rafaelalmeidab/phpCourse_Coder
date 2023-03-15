@@ -40,7 +40,7 @@
                 <a href="api/dadosUpload/">
                 </a>-->
                 <figure>
-                    <img src="api/dadosUpload/<?= $arquivo ?>" alt="<?= $arquivo ?>">
+                    <img src="api/dadosUpload/<?= $arquivo ?>" height="200" alt="<?= $arquivo ?>">
                     <figcaption><?= $arquivo ?></figcaption>
                 </figure>
             </li>
