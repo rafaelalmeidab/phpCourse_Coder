@@ -46,7 +46,7 @@
 
         public function apresentarPessoa(){
             echo "@{$this->login}: ";
-            parent::apresentarPessoa();
+            echo parent::apresentarPessoa();
         }
         
         
