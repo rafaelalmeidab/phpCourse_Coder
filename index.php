@@ -188,6 +188,16 @@
                                 Herança
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=classesObjetos&file=encapsulamento">
+                                Encapsulamento
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classesObjetos&file=membrosEstaticos">
+                                Membros Estáticos
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo vermelho-escuro">
