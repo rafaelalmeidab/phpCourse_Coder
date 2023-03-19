@@ -1,4 +1,4 @@
-<div class="titulo">Datas #02</div>
+<div class="titulo">Datas #2</div>
 
 <?php
     $formatoData1 = 'D, d \d\e M \d\e Y';

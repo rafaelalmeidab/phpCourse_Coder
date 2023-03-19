@@ -1,4 +1,4 @@
-<div class="titulo">Datas #01</div>
+<div class="titulo">Datas #1</div>
 
 <?php
     echo time() . "<br>";

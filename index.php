@@ -33,12 +33,12 @@
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=api&file=datas01">
-                                Datas #01
+                                Datas #1
                             </a>
                         </li>
                         <li>
                             <a href="exercicio.php?dir=api&file=datas02">
-                                Datas #02
+                                Datas #2
                             </a>
                         </li>
                         <li>
@@ -206,6 +206,36 @@
                         <li>
                             <a href="exercicio.php?dir=classesObjetos&file=classeAbstrata">
                                 Classe Abstrata
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classesObjetos&file=desafioSeteErros">
+                                Desafio 7 Erros
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classesObjetos&file=modificadorFinal">
+                                Modificador Final
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classesObjetos&file=traits">
+                                Traits #1
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classesObjetos&file=traits2">
+                                Traits #2
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classesObjetos&file=metodosMagicos">
+                                Métodos Mágicos
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=classesObjetos&file=polimorfismo">
+                                Polimorfimo
                             </a>
                         </li>
                     </ul>
