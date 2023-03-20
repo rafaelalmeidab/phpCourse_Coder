@@ -160,7 +160,7 @@
                         </li>
                         <li>
                             <a href="exercicio.php?dir=includes&file=desafioInclude">
-                                Desafio Módulo - COMEÇAR POO PHP PARA FINALIZAR AQUI
+                                Desafio Includes
                             </a>
                         </li>
                     </ul>
