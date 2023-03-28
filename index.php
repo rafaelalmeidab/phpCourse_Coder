@@ -28,6 +28,16 @@
     <main class="principal">
         <div class="conteudo">
             <nav class="modulos">
+            <div class="modulo azul">
+                    <h3>Formulário</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=formulario&file=criandoFormulario">
+                                Criando Formulário
+                            </a>
+                        </li>
+                    </ul>
+                </div>
                 <div class="modulo laranja">
                     <h3>API</h3>
                     <ul>
