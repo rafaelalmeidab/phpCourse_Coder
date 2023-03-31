@@ -1,45 +1,43 @@
 <?php
-/*
-session_start();
+    session_start();
 
+    $_SESSION['erros'] = '';
+    $_SESSION['user'] = '';
+    $email = '';
+    $senha = '';
 
-$_SESSION['erros'] = '';
-$_SESSION['user'] = '';
-$email = '';
-$senha = '';
+    $email = isset($_POST['email'])? $_POST['email'] : '';
+    $senha = isset($_POST['senha'])? $_POST['senha'] : '';
 
-$email = $_POST['email'];
-$senha = $_POST['senha'];
+    if ($email) {
+        $users = [
+            [
+                "nome" => "Rafael Almeida",
+                "email" => "rafael@hotmail.com",
+                "senha" => "123"
+            ],
+            [
+                "nome" => "Teste",
+                "email" => "teste@teste.com",
+                "senha" => "teste"
+            ]
+        ];
 
-if ($_POST['email']) {
-    $users = [
-        [
-            "nome" => "Rafael Almeida",
-            "email" => "rafael@hotmail.com",
-            "senha" => "123"
-        ],
-        [
-            "nome" => "Teste",
-            "email" => "teste@teste.com",
-            "senha" => "teste"
-        ]
-    ];
+        foreach ($users as $user) {
+            $emailValido = $email === $user['email'];
+            $senhaValido = $senha === $user['senha'];
 
-    foreach ($users as $user) {
-        $emailValido = $email === $user['email'];
-        $senhaValido = $senha === $user['senha'];
+            if ($emailValido == true && $senhaValido == true) {
+                $_SESSION['erros'] = null;
+                $_SESSION['usuario'] = $user['nome'];
+                header("Location: http://localhost:8080/php7/index.php");
+            }
+        }
 
-        if ($emailValido && $senhaValido) {
-            $_SESSION['erros'] = null;
-            $_SESSION['user'] = $user['nome'];
-            header('location: index.php');
+        if (!$_SESSION['usuario']) {
+            $_SESSION['erros'] = 'Usuário/senha inválido!';
         }
     }
-
-    if (!$_SESSION['user']) {
-        $_SESSION['erros'] = 'Usuário/senha inválido!';
-    }
-}
 
 ?>
 
