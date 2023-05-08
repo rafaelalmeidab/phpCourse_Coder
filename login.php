@@ -30,12 +30,17 @@
             if ($emailValido == true && $senhaValido == true) {
                 $_SESSION['erros'] = null;
                 $_SESSION['usuario'] = $user['nome'];
+
+                //COOKIE (10 MINUTOS)
+                $exp = time() + (60 * 1);
+                setcookie('usuario', $_SESSION['usuario'], $exp);
+
                 header("Location: http://localhost:8080/php7/index.php");
             }
         }
 
-        if (!$_SESSION['usuario']) {
-            $_SESSION['erros'] = 'Usuário/senha inválido!';
+        if (!isset($_SESSION['usuario'])) {
+            $_SESSION['erros'] = ['Usuário/senha inválido!'];
         }
     }
 
