@@ -26,7 +26,17 @@ include('sessaoCookie/sessao.php');
     <main class="principal">
         <div class="conteudo">
             <nav class="modulos">
-            <div class="modulo azul">
+                <div class="modulo vermelho">
+                    <h3>Banco de Dados</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=db&file=criarBanco">
+                                Criando Banco de Dados
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modulo azul">
                     <h3>Formulário</h3>
                     <ul>
                         <li>
