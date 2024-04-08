@@ -19,13 +19,13 @@ $_SESSION['email'] = 'TROCADILHO@teste';
 ?>
 
 <p>
-    <a href='\PHP_Udemy\sessaoCookie\sessao1.php'>
+    <a href='\PHP_Udemy\session-cookie\sessao1.php'>
         Voltar
     </a>
 </p>
 
 <p>
-    <a href='\PHP_Udemy\sessaoCookie\sessao3.php'>
+    <a href='\PHP_Udemy\session-cookie\sessao3.php'>
         Limpar Sessão
     </a>
 </p>

@@ -1,6 +1,6 @@
 <?php
 
-include('sessaoCookie/sessao.php');
+include('session-cookie/sessao.php');
 
 ?>
 
@@ -10,7 +10,7 @@ include('sessaoCookie/sessao.php');
 <head>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="recursos/css/estilo.css">
+    <link rel="stylesheet" href="resources/css/estilo.css">
     <title>Curso PHP</title>
 </head>
 
@@ -40,7 +40,7 @@ include('sessaoCookie/sessao.php');
                     <h3>Formulário</h3>
                     <ul>
                         <li>
-                            <a href="exercicio.php?dir=formulario&file=criandoFormulario">
+                            <a href="exercicio.php?dir=form&file=criandoFormulario">
                                 Criando Formulário
                             </a>
                         </li>
@@ -90,14 +90,14 @@ include('sessaoCookie/sessao.php');
                     <h3>Sessão & Cookie</h3>
                     <ul>
                         <li>
-                            <a href="exercicio.php?dir=sessaoCookie&file=sessao1">
+                            <a href="exercicio.php?dir=session-cookie&file=sessao1">
                                 Sessão #1
                             </a>
                         </li>
                     </ul>
                     <ul>
                         <li>
-                            <a href="exercicio.php?dir=sessaoCookie&file=gerenciamentoSessao">
+                            <a href="exercicio.php?dir=session-cookie&file=gerenciamentoSessao">
                                 Gerenciamento da Sessão
                             </a>
                         </li>
@@ -107,22 +107,22 @@ include('sessaoCookie/sessao.php');
                     <h3>Tratamento de Erro</h3>
                     <ul>
                         <li>
-                            <a href="exercicio.php?dir=tratamentoErro&file=tryCatch">
+                            <a href="exercicio.php?dir=error-treatment&file=tryCatch">
                                 Try/Catch
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=tratamentoErro&file=errosPersonalizados">
+                            <a href="exercicio.php?dir=error-treatment&file=errosPersonalizados">
                                 Erros Personalizados
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=tratamentoErro&file=desafioIntDiv">
+                            <a href="exercicio.php?dir=error-treatment&file=desafioIntDiv">
                                 Desafio IntDiv
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=tratamentoErro&file=errorHandler">
+                            <a href="exercicio.php?dir=error-treatment&file=errorHandler">
                                 Error Handler
                             </a>
                         </li>
@@ -187,72 +187,72 @@ include('sessaoCookie/sessao.php');
                     <h3>Orientação a Objetos</h3>
                     <ul>
                         <li>
-                            <a href="exercicio.php?dir=classesObjetos&file=primeiraClasse">
+                            <a href="exercicio.php?dir=classes-objects&file=primeiraClasse">
                                 Primeira Classe
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=classesObjetos&file=desafioClasseData">
+                            <a href="exercicio.php?dir=classes-objects&file=desafioClasseData">
                                 Desafio Classe Data
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=classesObjetos&file=construtorDestrutor">
+                            <a href="exercicio.php?dir=classes-objects&file=construtorDestrutor">
                                 Construtor/Destrutor
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=classesObjetos&file=heranca">
+                            <a href="exercicio.php?dir=classes-objects&file=heranca">
                                 Herança
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=classesObjetos&file=encapsulamento">
+                            <a href="exercicio.php?dir=classes-objects&file=encapsulamento">
                                 Encapsulamento
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=classesObjetos&file=membrosEstaticos">
+                            <a href="exercicio.php?dir=classes-objects&file=membrosEstaticos">
                                 Membros Estáticos
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=classesObjetos&file=interface">
+                            <a href="exercicio.php?dir=classes-objects&file=interface">
                                 Interface
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=classesObjetos&file=classeAbstrata">
+                            <a href="exercicio.php?dir=classes-objects&file=classeAbstrata">
                                 Classe Abstrata
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=classesObjetos&file=desafioSeteErros">
+                            <a href="exercicio.php?dir=-objects&file=desafioSeteErros">
                                 Desafio 7 Erros
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=classesObjetos&file=modificadorFinal">
+                            <a href="exercicio.php?dir=classes-objects&file=modificadorFinal">
                                 Modificador Final
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=classesObjetos&file=traits">
+                            <a href="exercicio.php?dir=classes-objects&file=traits">
                                 Traits #1
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=classesObjetos&file=traits2">
+                            <a href="exercicio.php?dir=classes-objects&file=traits2">
                                 Traits #2
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=classesObjetos&file=metodosMagicos">
+                            <a href="exercicio.php?dir=classes-objects&file=metodosMagicos">
                                 Métodos Mágicos
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=classesObjetos&file=polimorfismo">
+                            <a href="exercicio.php?dir=classes-objects&file=polimorfismo">
                                 Polimorfimo
                             </a>
                         </li>
@@ -262,62 +262,62 @@ include('sessaoCookie/sessao.php');
                     <h3>Funções</h3>
                     <ul>
                         <li>
-                            <a href="exercicio.php?dir=funcoes&file=escopo">
+                            <a href="exercicio.php?dir=functions&file=escopo">
                                 Funções & Escopo
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=funcoes&file=argumentoRetorno">
+                            <a href="exercicio.php?dir=functions&file=argumentoRetorno">
                                 Argumentos & Retornos
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=funcoes&file=desafioPalindromo">
+                            <a href="exercicio.php?dir=functions&file=desafioPalindromo">
                                 Desafio Palíndromo
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=funcoes&file=argumentoVariavel">
+                            <a href="exercicio.php?dir=functions&file=argumentoVariavel">
                                 Argumentos & Variáveis
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=funcoes&file=argumentoPadrao">
+                            <a href="exercicio.php?dir=functions&file=argumentoPadrao">
                                 Argumento Padrão
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=funcoes&file=declaraTipos">
+                            <a href="exercicio.php?dir=functions&file=declaraTipos">
                                 Declarando Tipos
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=funcoes&file=funcaoAnonima">
+                            <a href="exercicio.php?dir=functions&file=funcaoAnonima">
                                 Funções Anônimas
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=funcoes&file=closureCallable">
+                            <a href="exercicio.php?dir=functions&file=closureCallable">
                                 Closure & Callable
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=funcoes&file=recursividade">
+                            <a href="exercicio.php?dir=functions&file=recursividade">
                                 Recursividade
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=funcoes&file=desafioBuscaRecursiva">
+                            <a href="exercicio.php?dir=functions&file=desafioBuscaRecursiva">
                                 Desafio Busca Recursiva
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=funcoes&file=retornandoFuncao">
+                            <a href="exercicio.php?dir=functions&file=retornandoFuncao">
                                 Retornando Uma Função
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=funcoes&file=mapFilter">
+                            <a href="exercicio.php?dir=functions&file=mapFilter">
                                 Map & Filter
                             </a>
                         </li>
@@ -327,42 +327,42 @@ include('sessaoCookie/sessao.php');
                     <h3>Estruturas de Controle #2</h3>
                     <ul>
                         <li>
-                            <a href="exercicio.php?dir=estruturas2&file=for">
+                            <a href="exercicio.php?dir=structures2&file=for">
                                 Laço For
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=estruturas2&file=desafioFor">
+                            <a href="exercicio.php?dir=structures2&file=desafioFor">
                                 Desafio For
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=estruturas2&file=foreach">
+                            <a href="exercicio.php?dir=structures2&file=foreach">
                                 Foreach
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=estruturas2&file=breakContinue">
+                            <a href="exercicio.php?dir=structures2&file=breakContinue">
                                 Break/Continue
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=estruturas2&file=desafioImpressao">
+                            <a href="exercicio.php?dir=structures2&file=desafioImpressao">
                                 Desafio Impressão
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=estruturas2&file=whileDoWhile">
+                            <a href="exercicio.php?dir=structures2&file=whileDoWhile">
                                 While/Do While
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=estruturas2&file=desafioTabela">
+                            <a href="exercicio.php?dir=structures2&file=desafioTabela">
                                 Desafio Tabela #1
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=estruturas2&file=desafioTabela2">
+                            <a href="exercicio.php?dir=structures2&file=desafioTabela2">
                                 Desafio Tabela #2
                             </a>
                         </li>
@@ -427,27 +427,27 @@ include('sessaoCookie/sessao.php');
                     <h3>Básico</h3>
                     <ul>
                         <li>
-                            <a href="exercicio.php?dir=basico&file=ola">
+                            <a href="exercicio.php?dir=basics&file=ola">
                                 Olá PHP
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=basico&file=html">
+                            <a href="exercicio.php?dir=basics&file=html">
                                 Integração HTML
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=basico&file=css">
+                            <a href="exercicio.php?dir=basics&file=css">
                                 Integração CSS
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=basico&file=comentarios">
+                            <a href="exercicio.php?dir=basics&file=comentarios">
                                 Comentários PHP
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=basico&file=desafio">
+                            <a href="exercicio.php?dir=basics&file=desafio">
                                 Desafio
                             </a>
                         </li>
@@ -457,42 +457,42 @@ include('sessaoCookie/sessao.php');
                     <h3>Estruturas de Controle #1</h3>
                     <ul>
                         <li>
-                            <a href="exercicio.php?dir=estruturas1&file=6-68">
+                            <a href="exercicio.php?dir=structures&file=6-68">
                                 If Else
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=estruturas1&file=6-70">
+                            <a href="exercicio.php?dir=structures&file=6-70">
                                 Op. Relacionais
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=estruturas1&file=6-71">
+                            <a href="exercicio.php?dir=structures&file=6-71">
                                 Desafio PI
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=estruturas1&file=6-74">
+                            <a href="exercicio.php?dir=structures&file=6-74">
                                 Op. Lógicos
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=estruturas1&file=6-76">
+                            <a href="exercicio.php?dir=structures&file=6-76">
                                 $_GET/$_POST
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=estruturas1&file=6-79">
+                            <a href="exercicio.php?dir=structures&file=6-79">
                                 Operador Ternário
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=estruturas1&file=6-80">
+                            <a href="exercicio.php?dir=structures&file=6-80">
                                 Switch
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=estruturas1&file=6-81">
+                            <a href="exercicio.php?dir=structures&file=6-81">
                                 Desafio Switch
                             </a>
                         </li>
@@ -503,42 +503,42 @@ include('sessaoCookie/sessao.php');
                     <h3>Tipos</h3>
                     <ul>
                         <li>
-                            <a href="exercicio.php?dir=tipos&file=int">
+                            <a href="exercicio.php?dir=types&file=int">
                                 Tipo Inteiro
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=tipos&file=float">
+                            <a href="exercicio.php?dir=types&file=float">
                                 Tipo Float
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=tipos&file=aritmeticas">
+                            <a href="exercicio.php?dir=types&file=aritmeticas">
                                 Op. Aritméticas
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=tipos&file=desafio_precedendia">
+                            <a href="exercicio.php?dir=types&file=desafio_precedendia">
                                 Desafio Precedência
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=tipos&file=string">
+                            <a href="exercicio.php?dir=types&file=string">
                                 Tipo String
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=tipos&file=desafio_string">
+                            <a href="exercicio.php?dir=types&file=desafio_string">
                                 Desafio String
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=tipos&file=booleano">
+                            <a href="exercicio.php?dir=types&file=booleano">
                                 Tipo Booleano
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=tipos&file=conversoes">
+                            <a href="exercicio.php?dir=types&file=conversoes">
                                 Conversões
                             </a>
                         </li>
@@ -548,37 +548,37 @@ include('sessaoCookie/sessao.php');
                     <h3>Variáveis</h3>
                     <ul>
                         <li>
-                            <a href="exercicio.php?dir=variaveis&file=5-52">
+                            <a href="exercicio.php?dir=variables&file=5-52">
                                 Variáveis
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=variaveis&file=5-54">
+                            <a href="exercicio.php?dir=variables&file=5-54">
                                 Desafio Equação
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=variaveis&file=5-56">
+                            <a href="exercicio.php?dir=variables&file=5-56">
                                 Atribuições
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=variaveis&file=5-57">
+                            <a href="exercicio.php?dir=variables&file=5-57">
                                 Interpolação
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=variaveis&file=5-58">
+                            <a href="exercicio.php?dir=variables&file=5-58">
                                 Variáveis Variáveis
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=variaveis&file=5-62">
+                            <a href="exercicio.php?dir=variables&file=5-62">
                                 Valor vs. Referência
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=variaveis&file=5-63">
+                            <a href="exercicio.php?dir=variables&file=5-63">
                                 Constantes
                             </a>
                         </li>

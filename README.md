@@ -48,6 +48,11 @@ Before taking this course, students should have a basic understanding of program
 -Handling errors and exceptions<br>
 -Custom error handling<br>
 
+<h3><b>Classes, Objects, and Interfaces</b></h3>
+-Defining classes and creating objects<br>
+-Implementing interfaces<br>
+-Encapsulation, inheritance, and polymorphism<br>
+
 <h3><b>Course Structure</b></h3>
 The course is divided into modules, each covering a specific topic. Each module includes lectures, code examples, and exercises to reinforce learning. The course also includes a final project, where students will use the skills they have learned to build a web application.<br>
 
@@ -59,6 +64,9 @@ PHP Manual: https://www.php.net/manual/en/<br>
 W3Schools PHP Tutorial: https://www.w3schools.com/php/default.asp<br>
 PHP: The Right Way: https://phptherightway.com/<br>
 PHP Standards Recommendations (PSRs): https://www.php-fig.org/psr/<br>
+
+<h3><b>PHP Version Used</b></h3>
+This project was developed using PHP version 7.4.33.<br>
 
 <h3><b>Credits</b></h3>
 This course was created by Cod3r.<br>

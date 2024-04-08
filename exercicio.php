@@ -1,6 +1,6 @@
 <?php
 
-include('sessaoCookie/sessao.php');
+include('session-cookie/sessao.php');
 
 ?>
 
@@ -11,8 +11,8 @@ include('sessaoCookie/sessao.php');
 <head>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="recursos/css/estilo.css">
-    <link rel="stylesheet" href="recursos/css/exercicio.css">
+    <link rel="stylesheet" href="resources/css/estilo.css">
+    <link rel="stylesheet" href="resources/css/exercicio.css">
     <title>Exercício</title>
 </head>
 

@@ -22,7 +22,7 @@ print_r($_SESSION);
 ?>
 
 <p>
-    <a href='\PHP_Udemy\sessaoCookie\sessao2.php'>
+    <a href='\PHP_Udemy\session-cookie\sessao2.php'>
         Alterar Sessão
     </a>
 

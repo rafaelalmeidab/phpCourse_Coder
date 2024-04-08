@@ -52,8 +52,8 @@
 <head>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="recursos/css/estilo.css">
-    <link rel="stylesheet" href="recursos/css/login.css">
+    <link rel="stylesheet" href="resources/css/estilo.css">
+    <link rel="stylesheet" href="resources/css/login.css">
     <title>Curso PHP</title>
 </head>
 
