@@ -27,7 +27,7 @@ include('session-cookie/sessao.php');
         <div class="conteudo">
             <nav class="modulos">
                 <div class="modulo vermelho">
-                    <h3>Banco de Dados</h3>
+                    <h3>Seção 17: Banco de Dados</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=db&file=criarBanco">
@@ -37,7 +37,7 @@ include('session-cookie/sessao.php');
                     </ul>
                 </div>
                 <div class="modulo azul">
-                    <h3>Formulário</h3>
+                    <h3>Seção 16: Formulário</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=form&file=criandoFormulario">
@@ -47,7 +47,7 @@ include('session-cookie/sessao.php');
                     </ul>
                 </div>
                 <div class="modulo laranja">
-                    <h3>API</h3>
+                    <h3>Seção 15: API</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=api&file=datas01">
@@ -87,7 +87,7 @@ include('session-cookie/sessao.php');
                     </ul>
                 </div>
                 <div class="modulo vermelho">
-                    <h3>Sessão & Cookie</h3>
+                    <h3>Seção 14: Sessão & Cookie</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=session-cookie&file=sessao1">
@@ -104,7 +104,7 @@ include('session-cookie/sessao.php');
                     </ul>
                 </div>
                 <div class="modulo verde">
-                    <h3>Tratamento de Erro</h3>
+                    <h3>Seção 13: Tratamento de Erro</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=error-treatment&file=tryCatch">
@@ -129,7 +129,7 @@ include('session-cookie/sessao.php');
                     </ul>
                 </div>
                 <div class="modulo roxo">
-                    <h3>Namespace</h3>
+                    <h3>Seção 12: Namespace</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=namespace&file=basicoNamespace">
@@ -149,7 +149,7 @@ include('session-cookie/sessao.php');
                     </ul>
                 </div>
                 <div class="modulo azul">
-                    <h3>Includes</h3>
+                    <h3>Seção 11: Includes</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=includes&file=includes_">
@@ -184,7 +184,7 @@ include('session-cookie/sessao.php');
                     </ul>
                 </div>
                 <div class="modulo verde">
-                    <h3>Orientação a Objetos</h3>
+                    <h3>Seção 10: Orientação a Objetos</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=classes-objects&file=primeiraClasse">
@@ -259,7 +259,7 @@ include('session-cookie/sessao.php');
                     </ul>
                 </div>
                 <div class="modulo vermelho-escuro">
-                    <h3>Funções</h3>
+                    <h3>Seção 9: Funções</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=functions&file=escopo">
@@ -324,7 +324,7 @@ include('session-cookie/sessao.php');
                     </ul>
                 </div>
                 <div class="modulo verde-escuro">
-                    <h3>Estruturas de Controle #2</h3>
+                    <h3>Seção 8: Estruturas de Controle #2</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=structures2&file=for">
@@ -369,7 +369,7 @@ include('session-cookie/sessao.php');
                     </ul>
                 </div>
                 <div class="modulo laranja">
-                    <h3>Array</h3>
+                    <h3>Seção 7: Arrays</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=array&file=basicoArray">
@@ -423,38 +423,8 @@ include('session-cookie/sessao.php');
                         </li>
                     </ul>
                 </div>
-                <div class="modulo verde">
-                    <h3>Básico</h3>
-                    <ul>
-                        <li>
-                            <a href="exercicio.php?dir=basics&file=ola">
-                                Olá PHP
-                            </a>
-                        </li>
-                        <li>
-                            <a href="exercicio.php?dir=basics&file=html">
-                                Integração HTML
-                            </a>
-                        </li>
-                        <li>
-                            <a href="exercicio.php?dir=basics&file=css">
-                                Integração CSS
-                            </a>
-                        </li>
-                        <li>
-                            <a href="exercicio.php?dir=basics&file=comentarios">
-                                Comentários PHP
-                            </a>
-                        </li>
-                        <li>
-                            <a href="exercicio.php?dir=basics&file=desafio">
-                                Desafio
-                            </a>
-                        </li>
-                    </ul>
-                </div>
                 <div class="modulo roxo">
-                    <h3>Estruturas de Controle #1</h3>
+                    <h3>Seção 6: Estruturas de Controle #1</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=structures&file=6-68">
@@ -499,8 +469,48 @@ include('session-cookie/sessao.php');
 
                     </ul>
                 </div>
+                <div class="modulo azul">
+                    <h3>Seção 5: Variáveis</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=variables&file=5-52">
+                                Variáveis
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=variables&file=5-54">
+                                Desafio Equação
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=variables&file=5-56">
+                                Atribuições
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=variables&file=5-57">
+                                Interpolação
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=variables&file=5-58">
+                                Variáveis Variáveis
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=variables&file=5-62">
+                                Valor vs. Referência
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=variables&file=5-63">
+                                Constantes
+                            </a>
+                        </li>
+                    </ul>
+                </div>
                 <div class="modulo vermelho">
-                    <h3>Tipos</h3>
+                    <h3>Seção 4: Tipos Básicos Curso PHP</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=types&file=int">
@@ -544,42 +554,32 @@ include('session-cookie/sessao.php');
                         </li>
                     </ul>
                 </div>
-                <div class="modulo azul">
-                    <h3>Variáveis</h3>
+                <div class="modulo verde">
+                    <h3>Seção 3: Integrando PHP com HTML & CSS</h3>
                     <ul>
                         <li>
-                            <a href="exercicio.php?dir=variables&file=5-52">
-                                Variáveis
+                            <a href="exercicio.php?dir=basics&file=ola">
+                                Olá PHP
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=variables&file=5-54">
-                                Desafio Equação
+                            <a href="exercicio.php?dir=basics&file=html">
+                                Integração HTML
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=variables&file=5-56">
-                                Atribuições
+                            <a href="exercicio.php?dir=basics&file=css">
+                                Integração CSS
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=variables&file=5-57">
-                                Interpolação
+                            <a href="exercicio.php?dir=basics&file=comentarios">
+                                Comentários PHP
                             </a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=variables&file=5-58">
-                                Variáveis Variáveis
-                            </a>
-                        </li>
-                        <li>
-                            <a href="exercicio.php?dir=variables&file=5-62">
-                                Valor vs. Referência
-                            </a>
-                        </li>
-                        <li>
-                            <a href="exercicio.php?dir=variables&file=5-63">
-                                Constantes
+                            <a href="exercicio.php?dir=basics&file=desafio">
+                                Desafio
                             </a>
                         </li>
                     </ul>
