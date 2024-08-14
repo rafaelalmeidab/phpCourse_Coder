@@ -13,8 +13,8 @@
         $users = [
             [
                 "nome" => "Rafael Almeida",
-                "email" => "rafael@hotmail.com",
-                "senha" => "123"
+                "email" => "rafael@teste.com",
+                "senha" => "teste"
             ],
             [
                 "nome" => "Teste",
@@ -35,7 +35,7 @@
                 $exp = time() + (60 * 1);
                 setcookie('usuario', $_SESSION['usuario'], $exp);
 
-                header("Location: http://localhost:8080/php7/index.php");
+                header("Location: http://localhost:8080/index.php");
             }
         }
 
@@ -86,7 +86,6 @@
                 </div>
                 <button>Entrar</button>
             </form>
-
         </div>
     </main>
     <footer class="rodape">
