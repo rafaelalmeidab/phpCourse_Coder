@@ -1,0 +1,122 @@
+body.exercicio{
+  grid-template-rows: 60px 30px 0.5fr 30px;
+  grid-template-areas: 
+  "cabecalhosecaoex" 
+  "navegacaosecaoex" 
+  "principalsecaoex" 
+  "rodapesecaoex";
+}
+
+.cabecalhosecaoex {
+  grid-area: cabecalhosecaoex;
+  background: linear-gradient(to right, black, #002542);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 9px -2px rbga(0, 0, 0, 0.75);
+  z-index: 1;
+}
+
+.cabecalhosecaoex > h1{
+  margin: 0px;
+  font-weight: 300;
+  font-size: 2.8rem;
+}
+
+.cabecalhosecaoex > h2{
+  margin: 0px;
+  font-weight: 200;
+  font-size: 1.8rem;
+}
+
+.conteudosecaoex{
+  position: relative;
+  height: 50%;
+  overflow-y: scroll;
+  background-color: #fff;
+  padding: 10px;;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.25);
+}
+
+.modulosecaoex{
+  flex-basis: 17%;
+  margin-bottom: 10px;
+  border-radius: 2.5px;;
+}
+
+.modulosecaoex > h3{
+  margin: 0px;
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.5rem;
+  padding: 5px 10px;
+  background: linear-gradient(to right, black, #002542);
+}
+
+.modulosecaoex > ul{
+  margin: 0px;
+  padding: 5px;
+  list-style: none;
+}
+
+.modulosecaoex > ul >li{
+  padding: 3.5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.modulosecaoex > ul >li:hover{
+  background-color: #EEE;
+}
+
+.modulosecaoex > ul >li > a{
+  display: flex;
+  text-decoration: none;
+  color: #000000;
+}
+
+.modulossecaoex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* background: linear-gradient(to right, black, #002542); */
+.modulosecaoex.azul { border: 2px solid #002542 }
+.modulosecaoex.azul > h3 { background-color:#002542 }
+
+.navegacaosecaoex{
+  grid-area: navegacaosecaoex;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #555;
+}
+
+.navegacaosecaoex > a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.3rem;
+  background-color: #002542;
+  padding: 2.5px 5px;
+  margin-right: 5px;
+}
+
+.principalsecaoex {
+  height: calc(100vh - 120px);
+}
+
+.rodapesecaoex {
+  grid-area: rodapesecaoex;
+  background-color: #000000;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 200;
+  padding: 0px 10px; /* padding-right: 20px; */
+}

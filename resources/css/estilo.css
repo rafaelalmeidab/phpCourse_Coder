@@ -198,6 +198,7 @@ span.usuario{
   color: #eee;
   font-size: 1.2rem;
   font-weight: 300;
+  padding: 20px;
 }
 
 .navegacao > a.verde {

@@ -1,6 +1,6 @@
 <?php
 
-include('session-cookie/sessao.php');
+include('session-cookies/sessao.php');
 
 ?>
 

@@ -1,0 +1,115 @@
+*{
+  font-family: 'Oswald', sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  margin: 0px;
+  display: grid;
+  grid-template-rows: 120px 1fr 60px;
+  grid-template-columns: 1fr;
+  grid-template-areas: 
+  "cabecalhosecao" 
+  "principalsecao" 
+  "rodapesecao";
+}
+
+.cabecalhosecao {
+  grid-area: cabecalhosecao;
+  background: linear-gradient(to right, black, #004225);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 9px -2px rbga(0, 0, 0, 0.75);
+  z-index: 1;
+}
+
+.cabecalhosecao > h1{
+  margin: 0px;
+  font-weight: 300;
+  font-size: 2.8rem;
+}
+
+.cabecalhosecao > h2{
+  margin: 0px;
+  font-weight: 200;
+  font-size: 1.8rem;
+}
+
+.conteudosecao{
+  position: relative;
+  height: 100%;
+  overflow-y: scroll;
+  background-color: #fff;
+  padding: 20px;;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.25);
+}
+
+.modulosecao{
+  flex-basis: 32%;
+  margin-bottom: 20px;
+  border-radius: 5px;;
+}
+
+.modulosecao > h3{
+  margin: 0px;
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  background: linear-gradient(to right, black, #004225);
+}
+
+.modulosecao > ul{
+  margin: 0px;
+  padding: 10px;
+  list-style: none;
+}
+
+.modulosecao > ul >li{
+  padding: 7px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.modulosecao > ul >li:hover{
+  background-color: #EEE;
+}
+
+.modulosecao > ul >li > a{
+  display: flex;
+  text-decoration: none;
+  color: #000000;
+}
+
+.modulossecao{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.modulosecao.verde { border: 2px solid #004225 }
+.modulosecao.verde > h3 { background-color:#004225 }
+
+.principalsecao {
+  grid-area: principalsecao;
+  background-color: #f0f0f0;
+  /* height: calc(100vh - 180px); */
+  padding: 20px;
+}
+
+.rodapesecao {
+  grid-area: rodapesecao;
+  background-color: #000000;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 200;
+  padding: 0px 20px; /* padding-right: 20px; */
+
+}

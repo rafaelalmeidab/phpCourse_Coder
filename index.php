@@ -29,7 +29,7 @@
                     <h3>Seção 1: Introdução PHP</h3>
                     <ul>
                         <li>
-                            <a href="exercicio.php?dir=basics&file=intro">Terminais</a>
+                            <a href="exercicio.php?dir=intro&file=intro">Terminais</a>
                         </li>
                         <li>
                             <a href="exercicio.php?dir=intro&file=intro">Usando o Terminal</a>
@@ -53,22 +53,22 @@
                     <h3>Seção 2: Revisão HTML & CSS</h3>
                     <ul>
                         <li>
-                            <a href="exercicio.php?dir=basics&file=ola">Terminais</a>
+                            <a href="exercicio.php?dir=php-course&file=index-secao">Estrutura do Template dos Exercícios</a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=intro&file=intro">Usando o Terminal</a>
+                            <a href="exercicio.php?dir=php-course&file=">CSS Grid</a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=intro&file=intro">Informações Importantes</a>
+                            <a href="exercicio.php?dir=php-course&file=">Cabeçalho</a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=intro&file=intro">Visão Geral de Estruturas de Dados</a>
+                            <a href="exercicio.php?dir=php-course&file=">Rodapé</a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=intro&file=intro">Visão Geral de Algoritmo</a>
+                            <a href="exercicio.php?dir=php-course&file=">Conteúdo</a>
                         </li>
                         <li>
-                            <a href="exercicio.php?dir=intro&file=intro">Visão Geral do Curso PHP</a>
+                            <a href="exercicio.php?dir=php-course&file=">Menu #01</a>
                         </li>
                     </ul>
                 </div>
@@ -446,7 +446,6 @@
                         </li>
                     </ul>
                 </div>
-
                 <div class="modulo azul">
                     <h3>Seção 16: Formulário</h3>
                     <ul>
@@ -455,7 +454,6 @@
                         </li>
                     </ul>
                 </div>
-
                 <div class="modulo vermelho">
                     <h3>Seção 17: Banco de Dados</h3>
                     <ul>
@@ -464,6 +462,87 @@
                         </li>
                     </ul>
                 </div>
+                <div class="modulo azul">
+                    <h3>Seção 18: Projeto Final InNOut</h3>
+                    <ul>
+                        <li>
+                            <a href="">Criando Formulário</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modulo azul">
+                    <h3>Seção 19: Conclusão</h3>
+                    <ul>
+                        <li>
+                            <a href="">Conclusão</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modulo azul">
+                    <h3>Seção 20: Extra - Conceito sobre Web</h3>
+                    <ul>
+                        <li>
+                            <a href="">Criando Formulário</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modulo azul">
+                    <h3>Seção 21: Extra - JavaScript</h3>
+                    <ul>
+                        <li>
+                            <a href="">Criando Formulário</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modulo azul">
+                    <h3>Seção 22: Extra - HTML</h3>
+                    <ul>
+                        <li>
+                            <a href="">Criando Formulário</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modulo azul">
+                    <h3>Seção 23: Extra - CSS</h3>
+                    <ul>
+                        <li>
+                            <a href="">Criando Formulário</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modulo azul">
+                    <h3>Seção 24: Extra - Integrando HTML, CSS e JS</h3>
+                    <ul>
+                        <li>
+                            <a href="">Criando Formulário</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modulo azul">
+                    <h3>Seção 25: Extra - Ajax</h3>
+                    <ul>
+                        <li>
+                            <a href="">Criando Formulário</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modulo azul">
+                    <h3>Seção 26: Extra - jQuery</h3>
+                    <ul>
+                        <li>
+                            <a href="">Criando Formulário</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modulo azul">
+                    <h3>Seção 27: Extra - Banco Relacional</h3>
+                    <ul>
+                        <li>
+                            <a href="">Criando Formulário</a>
+                        </li>
+                    </ul>
+                </div>
+
             </nav>
         </div>
     </main>
