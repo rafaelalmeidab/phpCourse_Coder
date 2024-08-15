@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="php-course/recursos-secao/css-secao/estilo-secao.css">
-  <link rel="stylesheet" href="php-course/recursos-secao/css-secao/exercicio-secao.css">
+  <link rel="stylesheet" href="./recursos-secao/css-secao/exercicio-secao.css">
   <title>Curso PHP</title>
 </head>
 <body class="exercicio">
@@ -19,6 +18,7 @@
   <main class="principalsecaoex">
     <div class="conteudosecaoex">
       <?php
+        // var_dump(__DIR__ . "/{$_GET['dir']}/{$_GET['file']}.php");exit;
         include(__DIR__ . "/{$_GET['dir']}/{$_GET['file']}.php");
       ?>
     </div>

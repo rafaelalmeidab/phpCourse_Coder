@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="php-course/recursos-secao/css-secao/estilo-secao.css"> -->
-  <link rel="stylesheet" href="./recursos-secao/css-secao/estilo-secao.css">
+  <link rel="stylesheet" href="php-course/recursos-secao/css-secao/estilo-secao.css">
+  <!-- <link rel="stylesheet" href="./recursos-secao/css-secao/estilo-secao.css"> -->
   <title>Curso PHP</title>
 </head>
 <body>
@@ -18,7 +18,7 @@
         <div class="modulosecao verde">
           <h3>Seção 1 - Introdução</h3>
           <ul>
-            <li><a href="exercicio-secao.php?dir=php-course/recursos-secao/teste-secao&file=teste-secao">Exemplo A</a></li>
+            <li><a href="php-course/exercicio-secao.php?dir=recursos-secao/teste-secao&file=teste-secao">Exemplo A</a></li>
             <li><a href="#">Exemplo B</a></li>
             <li><a href="#">Exemplo C</a></li>
           </ul>

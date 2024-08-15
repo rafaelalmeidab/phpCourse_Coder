@@ -1,5 +1,14 @@
+*{
+  font-family: 'Oswald', sans-serif;
+  box-sizing: border-box;
+}
+
 body.exercicio{
-  grid-template-rows: 60px 30px 0.5fr 30px;
+  min-height: 100vh;
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 120px 60px 1fr 60px;
   grid-template-areas: 
   "cabecalhosecaoex" 
   "navegacaosecaoex" 
@@ -33,17 +42,17 @@ body.exercicio{
 
 .conteudosecaoex{
   position: relative;
-  height: 50%;
+  height: 100%;
   overflow-y: scroll;
   background-color: #fff;
-  padding: 10px;;
+  padding: 20px;;
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.25);
 }
 
 .modulosecaoex{
-  flex-basis: 17%;
-  margin-bottom: 10px;
-  border-radius: 2.5px;;
+  flex-basis: 32%;
+  margin-bottom: 20px;
+  border-radius: 5px;;
 }
 
 .modulosecaoex > h3{
@@ -51,18 +60,18 @@ body.exercicio{
   color: #fff;
   font-weight: 300;
   font-size: 1.5rem;
-  padding: 5px 10px;
+  padding: 10px 20px;
   background: linear-gradient(to right, black, #002542);
 }
 
 .modulosecaoex > ul{
   margin: 0px;
-  padding: 5px;
+  padding: 10px;
   list-style: none;
 }
 
 .modulosecaoex > ul >li{
-  padding: 3.5px;
+  padding: 7px;
   font-size: 1.2rem;
   cursor: pointer;
 }
@@ -83,30 +92,14 @@ body.exercicio{
   justify-content: space-around;
 }
 
-/* background: linear-gradient(to right, black, #002542); */
-.modulosecaoex.azul { border: 2px solid #002542 }
-.modulosecaoex.azul > h3 { background-color:#002542 }
-
-.navegacaosecaoex{
-  grid-area: navegacaosecaoex;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  background-color: #555;
-}
-
-.navegacaosecaoex > a{
-  text-decoration: none;
-  color: #fff;
-  font-weight: 300;
-  font-size: 1.3rem;
-  background-color: #002542;
-  padding: 2.5px 5px;
-  margin-right: 5px;
-}
+.modulosecaoex { border: 2px solid #002542 }
+.modulosecaoex > h3 { background-color:#002542 }
 
 .principalsecaoex {
-  height: calc(100vh - 120px);
+  grid-area: principalsecaoex;
+  background-color: #f0f0f0;
+  height: calc(100vh - 180px);
+  padding: 20px;
 }
 
 .rodapesecaoex {
@@ -118,5 +111,6 @@ body.exercicio{
   align-items: center;
   font-size: 1.2rem;
   font-weight: 200;
-  padding: 0px 10px; /* padding-right: 20px; */
+  padding: 0px 20px; /* padding-right: 20px; */
+
 }
