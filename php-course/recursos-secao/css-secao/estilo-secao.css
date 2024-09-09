@@ -17,7 +17,8 @@ body{
 
 .cabecalhosecao {
   grid-area: cabecalhosecao;
-  background: linear-gradient(to right, black, #004225);
+  /* background: linear-gradient(to right, black, #004225); */
+  background: linear-gradient(to right, black, #002542);
   color: white;
   display: flex;
   flex-direction: column;
@@ -60,7 +61,7 @@ body{
   font-weight: 300;
   font-size: 1.5rem;
   padding: 10px 20px;
-  background: linear-gradient(to right, black, #004225);
+  background: linear-gradient(to right, black, #002542);
 }
 
 .modulosecao > ul{
@@ -91,8 +92,8 @@ body{
   justify-content: space-around;
 }
 
-.modulosecao.verde { border: 2px solid #004225 }
-.modulosecao.verde > h3 { background-color:#004225 }
+.modulosecao.verde { border: 2px solid #002542 }
+.modulosecao.verde > h3 { background-color:#002542 }
 
 .principalsecao {
   grid-area: principalsecao;
